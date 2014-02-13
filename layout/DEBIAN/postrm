@@ -1,0 +1,14 @@
+#!/bin/bash
+
+declare -a cydia
+cydia=($CYDIA)
+
+
+if [[ ${CYDIA+@} ]]; then
+    echo "unload identityservicesd..."
+    launchctl unload /System/Library/LaunchDaemons/com.apple.identityservicesd.plist
+    launchctl load /System/Library/LaunchDaemons/com.apple.identityservicesd.plist
+    echo "loading identityservicesd"
+fi
+
+exit 0

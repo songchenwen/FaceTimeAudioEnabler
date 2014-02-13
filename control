@@ -1,0 +1,10 @@
+Package: com.hacksong.facetimeaudioenabler
+Name: FaceTimeAudioEnabler
+Depends: firmware (>= 7.0), mobilesubstrate
+Priority: optional
+Version: 1.0.5
+Architecture: iphoneos-arm
+Description: Enable FaceTime Audio for iPhone bought in China.
+Maintainer: HackSong
+Author: HackSong
+Section: Tweaks
