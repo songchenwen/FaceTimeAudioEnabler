@@ -1,6 +1,0 @@
-[submodule "theos"]
-	path = theos
-url=git@github.com:songchenwen/theos.git
-[submodule "ldid"]
-	path = ldid
-url=git@github.com:songchenwen/ldid.git
